@@ -1,0 +1,76 @@
+/* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db; 
+    color: #333;
+  }
+  header {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e43d3d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+    color: #333333; /* Title color */
+  }
+  
+  /* Education Section Styles */
+  #education {
+    border-top: 2px solid #333;
+    padding-top: 20px;
+  }
+  
+  #courseList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #courseList li {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: hsl(83, 66%, 58%);
+    border-radius: 3px;
+    /* Additional color styles for list items */
+  }
+  
+  /* Home Section Styles */
+  #home {
+    background-color: hsl(83, 66%, 58%);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Projects Section Styles */
+  #projects {
+    background-color: #e43d3d;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #filterInput {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+  }
+  
+  ul#projectList li {
+    margin-bottom: 5px;
+    color: #444; /* Color for project list items */
+  }
+  
+  /* Additional Styles as needed */
+  
