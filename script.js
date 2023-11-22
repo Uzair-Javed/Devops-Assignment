@@ -34,4 +34,26 @@ const projects = [
   
   // Call function to display projects
   displayProjects();
+
+  // Sample certification data
+const certifications = [
+  'Certification 1 - Organization 1',
+  'Certification 2 - Organization 2',
+  // Add more certification details as needed
+];
+
+// Function to display certifications
+function displayCertifications() {
+  const certificationList = document.getElementById('certificationList');
+
+  certifications.forEach(certification => {
+    const listItem = document.createElement('li');
+    listItem.textContent = certification;
+    certificationList.appendChild(listItem);
+  });
+}
+
+// Call function to display certifications
+displayCertifications();
+
   
