@@ -73,4 +73,18 @@
   }
   
   /* Additional Styles as needed */
+  /* Add specific styles for the Certifications page if needed */
+#certifications {
+  margin: 20px;
+}
+
+#certificationList {
+  list-style: none;
+  padding: 0;
+}
+
+#certificationList li {
+  margin-bottom: 5px;
+}
+
   
